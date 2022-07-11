@@ -11,20 +11,196 @@
 }
 
 body {
+    margin: 0 auto;
     font-family: PT Sans, sans-serif;
     font-size: 24px; 
     line-height: 31px;
-    color: #000;
+    color: #fff;
     font-weight: 400;
-    width: 380px;
-    background-color: #eb5a1e;
+    width: 340px;
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
 }
 
-.visually-hidden{
+.visually-hidden {
     font-size: 0;
     line-height: 0;
     padding: 0;
     margin: 0;
     width: 0;
     height: 0;
+}
+
+.logo {
+    background-color: #fff;
+    margin: 40px auto 30px;
+    display: block;
+}
+
+html{
+    background-color: #fff;
+}
+
+.moto{
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    margin: 0 0 90px;
+}
+
+.card {
+    background-color: #ebb21e;
+    margin: 30px 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    margin: 15px 0 30px;
+}
+.card a:hover{
+    color: #eb5a1e;
+}
+.count {
+    position: relative;
+    left: calc(50% - 17px);
+    font-size: 16px;
+    color: #666;
+}
+
+.buttons {
+    background-color: #fff;
+    width: max-content;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.buttons button {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    list-style: 33px;
+    width: 40px;
+    height: 33px;
+    padding: 0 15px 5px;
+    vertical-align: middle;
+   
+    
+}
+
+.buttons button:hover {
+    background-color: #eb5a1e;
+}
+
+.buttons span {
+    padding: 0 5px 5px;
+}
+
+.minus {
+    border-radius:  5px 0 0 5px;
+}
+
+.plus {
+    border-radius: 0 5px 5px 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row span {
+    font-weight: 700;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: #eb5a1e;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+.basket:hover {
+    border: 1px #eb5a1e solid;
+    font-weight: 400;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.basket:active {
+    border: 1px;
+    color: #666;
+    box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.15);
+}
+
+.form {
+    background-color: #ddd;
+    color: #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    margin-bottom: 70px;
+
+    
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+
+}
+
+.form input {
+    padding: 10px 20px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: #eee;
+    border: 1px solid #d7d7d7;
+    margin: 10px 0;
+    outline: #eb5a1e;
+
+}
+
+.form p {
+    margin: 10px 0;
+}
+
+.form p span {
+    font-weight: 700;
+}
+
+.cost {
+    color: #eb5a1e;
+}
+.form button {
+    width: 140px;
+    height: 40px;
+    background-color: #2fc035;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
+    font-weight: 700;
+    cursor: pointer;
 }
