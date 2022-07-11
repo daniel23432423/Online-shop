@@ -1,0 +1,30 @@
+@font-face {
+    font-family: PT Sans, sans-serif;
+    src: url(/fonts/PTSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: PT Sans, sans-serif;
+    src: url(/fonts/PTSans-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+    font-family: PT Sans, sans-serif;
+    font-size: 24px; 
+    line-height: 31px;
+    color: #000;
+    font-weight: 400;
+    width: 380px;
+    background-color: #eb5a1e;
+}
+
+.visually-hidden{
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+}
