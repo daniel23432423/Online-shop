@@ -89,10 +89,9 @@ html{
     border: none;
     background-color: #fff;
     font-size: 20px;
-    list-style: 33px;
     width: 40px;
-    height: 33px;
-    padding: 0 15px 5px;
+    height: 34px;
+    padding: 3px 15px 5px;
     vertical-align: middle;
    
     
@@ -103,7 +102,7 @@ html{
 }
 
 .buttons span {
-    padding: 0 5px 5px;
+    padding: 0 10px 5px;
 }
 
 .minus {
@@ -137,6 +136,7 @@ html{
     color: #eb5a1e;
     line-height: 21px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .basket:hover {
@@ -204,3 +204,46 @@ fieldset {
     font-weight: 700;
     cursor: pointer;
 }
+
+.Wedo img {
+    margin: 30px 10px 20px;
+}
+
+.main {
+    margin: 20px 0;
+}
+
+.Wedo span {
+    display: block;
+    text-align: center;
+}
+
+.description {
+    padding-bottom: 20px;
+}
+
+.product-card {
+    padding: 30px;
+}
+
+
+.price {
+    font-weight: 700;
+}
+
+.cont {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+
+.bask-2 {
+    margin-top: 30px;
+}
+
+.button-2 {
+    margin-top: 10px;
+}
+
+
