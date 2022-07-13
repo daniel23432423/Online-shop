@@ -136,6 +136,7 @@ html{
     color: #eb5a1e;
     line-height: 21px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .basket:hover {
