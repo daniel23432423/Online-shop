@@ -17,7 +17,7 @@ body {
     line-height: 31px;
     color: #fff;
     font-weight: 400;
-    width: 340px;
+    width: 768px;
     background-color: rgb(51, 51, 51);
     padding: 20px;
 }
@@ -50,14 +50,17 @@ html{
 
 .card {
     background-color: #ebb21e;
-    margin: 30px 10px;
+    margin: 30px auto;
     padding: 20px;
     border-radius: 5px;
     color: #000;
+    width: 300px;
 }
 
 .card img {
     border-radius: 5px;
+    display: block;
+    margin: 0 auto;
 }
 
 .card a {
@@ -82,7 +85,7 @@ html{
     width: max-content;
     border-radius: 5px;
     font-size: 18px;
-
+    height: 34px;
 }
 
 .buttons button {
@@ -90,8 +93,8 @@ html{
     background-color: #fff;
     font-size: 20px;
     width: 40px;
-    height: 34px;
-    padding: 3px 15px 5px;
+    height: 100%;
+    padding: 5px 15px 6px;
     vertical-align: middle;
    
     
@@ -156,10 +159,10 @@ html{
     color: #000;
     border-radius: 5px;
     padding: 20px;
-    margin: 0 10px;
+    margin: 0 auto;
     font-size: 20px;
     margin-bottom: 70px;
-
+    width: 300px;
     
 }
 
@@ -200,9 +203,15 @@ fieldset {
     border-radius: 5px;
     color: #fff;
     border: none;
-    box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
     font-weight: 700;
     cursor: pointer;
+}
+
+.form button:hover {
+    box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
+    background-color: #ddd;
+    color: #000;
+    border: 1px solid #000;
 }
 
 .Wedo img {
@@ -245,5 +254,75 @@ fieldset {
 .button-2 {
     margin-top: 10px;
 }
+
+.form svg {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .catalog {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .logo {
+        width: 400px;
+        height: auto;
+    }
+    
+    .moto {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .form {
+        width: 89%;
+        position: relative;
+    }
+    
+    .form svg {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 90px;
+        width: 190px;
+        height: auto;
+        fill: #eb5a1e;
+
+    }
+
+    .Wedo img {
+        display: block;
+        margin: 30px auto 20px;
+        width: 500px;
+        height: auto;
+    }
+    .product-card {
+        display: block;
+        align-items: center;
+        margin: auto;
+
+    }
+
+
+}
+
+.glav {
+    color: #fff;
+    text-decoration: none;
+}
+
+.glav:hover {
+    color: #eb5a1e;
+
+}
+
+.strel {
+    width: 30px;
+}
+
+
 
 
