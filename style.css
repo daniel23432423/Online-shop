@@ -85,7 +85,7 @@ html{
     width: max-content;
     border-radius: 5px;
     font-size: 18px;
-
+    height: 34px;
 }
 
 .buttons button {
@@ -93,8 +93,8 @@ html{
     background-color: #fff;
     font-size: 20px;
     width: 40px;
-    height: 34px;
-    padding: 3px 15px 5px;
+    height: 100%;
+    padding: 5px 15px 6px;
     vertical-align: middle;
    
     
@@ -203,9 +203,15 @@ fieldset {
     border-radius: 5px;
     color: #fff;
     border: none;
-    box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
     font-weight: 700;
     cursor: pointer;
+}
+
+.form button:hover {
+    box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
+    background-color: #ddd;
+    color: #000;
+    border: 1px solid #000;
 }
 
 .Wedo img {
