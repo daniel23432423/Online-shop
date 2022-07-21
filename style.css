@@ -17,7 +17,6 @@ body {
     line-height: 31px;
     color: #fff;
     font-weight: 400;
-    width: 768px;
     background-color: rgb(51, 51, 51);
     padding: 20px;
 }
@@ -259,6 +258,24 @@ fieldset {
     display: none;
 }
 
+.glav {
+    color: #fff;
+    text-decoration: none;
+}
+
+.glav:hover {
+    color: #eb5a1e;
+
+}
+
+.strel {
+    width: 30px;
+}
+
+.gallery div img {
+    display: none;
+}
+
 @media(min-width: 768px) {
     .catalog {
         display: flex;
@@ -309,19 +326,81 @@ fieldset {
 
 }
 
-.glav {
-    color: #fff;
-    text-decoration: none;
+
+@media(min-width: 1024px) {
+    .catalog {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 592px;
+        height: auto;
+    }
+
+    .catalog-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .catalog {
+        max-width: 800px;
+        margin: 0 75px;
+    }
+
+    .form {
+        max-width: 320px;
+        height: 540px;
+        margin: 30px;
+    }
+
+    .card {
+        margin: 30px 40px 30px;
+        width: 280px;
+    }
+
+    .form svg {
+        top: 380px;
+        left: 40px;
+        width: 160px;
+    }
+
+    .gallery div img {
+        display: block;
+        object-fit: cover;
+        width: 345px;
+        height: 214px;
+        object-fit: 50% 50%;
+    }
+
+    .gallery>img {
+        display: block;
+        height: 442px;
+        width: 700px;
+        margin: 0 48px;
+        margin-top: 40px;
+    }
+
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .gallery div {
+        margin-top: 10px;
+    }
+
+    .gallery div div {
+        width: 345px;
+        height: 214px;
+        overflow: hidden;
+    }
+
 }
 
-.glav:hover {
-    color: #eb5a1e;
-
-}
-
-.strel {
-    width: 30px;
-}
 
 
 
