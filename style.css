@@ -276,6 +276,14 @@ fieldset {
     display: none;
 }
 
+.row div {
+    max-width: 720px;
+}
+
+.Wedo + .row {
+    margin: 40px 50px;
+}
+
 @media(min-width: 768px) {
     .catalog {
         display: flex;
@@ -397,6 +405,10 @@ fieldset {
         width: 345px;
         height: 214px;
         overflow: hidden;
+    }
+
+    .product-card {
+        height: 239px;
     }
 
 }
